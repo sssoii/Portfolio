@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sssoii | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">sssoii</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Hi, I'm sssoii</h1>
+    <p>Self-taught developer building clean, functional web projects.</p>
+    <a href="#projects" class="btn">View Work</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I focus on writing simple, maintainable code and learning by building. Currently exploring frontend development and Python automation.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Guess The Number</h3>
+        <p>A Python CLI game with random number logic and input validation.</p>
+        <a href="https://github.com/sssoii/guess-the-number" target="_blank">View Repo</a>
+      </div>
+      <div class="card">
+        <h3>Portfolio Site</h3>
+        <p>This site. Built with vanilla HTML, CSS, and JS. No frameworks.</p>
+        <a href="#">Live Demo</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Find me on GitHub or open an issue in any repo.</p>
+    <a href="https://github.com/sssoii" class="btn-outline">GitHub Profile</a>
+  </section>
+
+  <footer>
+    <p>© 2026 sssoii. Built from scratch.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
